@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
+#background {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+.finally-it-works {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+
+body {
+  font-family: raleway, sans-serif;
+  margin: 0px;
+  background: blue;
+  color: white;
+}
+
+h1 {
+  margin-left: 42%;
+  margin-top: -10px;
+  padding-top: 80px;
+  font-family: raleway;
+}
+
+header {
+  background: rgba(77, 0, 25, 0.89);
+  padding: 0.02px;
+  height: 57px;
+  position: fixed;
+  margin: 10px 0px 0px 0px;
+  opacity: 0.89;
+}
+
+#navbar {
+  background: rgba(77, 0, 25, 0);
+  margin: -65px 157px 0px 720px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  font-family: kalam, sans-serif;
+  font-size: 17px;
+}
+
+#logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 17px;
+}
+
+.brochure-img {
+  width: 20%;
+  height: 400px;
+  box-shadow: 20px 10px 5px rgba(148, 77, 255, 0.15);
+}
+
+#brochure-img-flex {
+  display: flex;
+  flex-direction: columns;
+  justify-content: space-evenly;
+}
+
+#tour-packages-container {
+  position: relative;
+  margin-left: 70px;
+  padding-top: 50px;
+  width: 100%;
+  height: 600px;
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr;
+  grid-template-rows: 1fr 3fr;
+}
+
+.tour-package {
+  border-style: solid;
+  height: 80%;
+  width: 350px;
+  box-shadow: 20px 10px 5px rgba(148, 77, 255, 0.15);
+}
+
+h2 {
+  margin-left: 350px;
+  color: #800000;
+}
+
+.submit-btn {
+  height: 50px;
+  width: 120px;
+  border-radius: 17px;
+  margin: 30px 0px 0px 100px;
+}
+
+.submit-btn-middle {
+  height: 50px;
+  width: 120px;
+  border-radius: 17px;
+  margin: 30px 0px 0px 100px;
+}
+
+.submit-btn:hover {
+  background: #99ddff;
+  color: green;
+  font-weight: 600;
+  transition: 0.45s;
+}
+
+.submit-btn-middle:hover {
+  background: #99ddff;
+  color: green;
+  font-weight: 600;
+  transition: 0.45s;
+}
+
+h3 {
+  margin-left: 90px;
+  font-family: kalam;
+  font-size: 25px;
+  color: #800000;
+  font-weight: 1750;
+}
+
+.video-position {
+  margin-left: 0px;
+  opacity: 0.8;
+}
+
+.video-position:hover {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+#email {
+  width: 150px;
+  height: 25px;
+  border-radius: 10px;
+  margin-left: 550px;
+  margin-bottom: 15px;
+}
+
+.submit-btn-email {
+  height: 30px;
+  width: 60px;
+  margin-left: 600px;
+  border-radius: 7px;
+}
+
+.submit-btn-email:hover {
+  background: #99ddff;
+  color: green;
+  font-weight: 600;
+  transition: 0.45s;
+}
